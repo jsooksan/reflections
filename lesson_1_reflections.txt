@@ -1,0 +1,32 @@
+1. We can use a diff command on Macs or linux to compare 2 files
+2. diff -u file1.txt file2.txt
+3. on Windows use fc command
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Ans: Can go back to the previous working version if needed
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Ans: Pros -- Manually choosing commit can save work at logical point
+     Cons -- Manually choosing commit can be dangerous if not done often enough
+             (e.g., if the changes are too big)
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Ans: In some situations, files are inter-related, so it would be nice to be able to save multiple files in one commit.
+
+How can you use the commands git log and git diff to view the history of files?
+
+Ans: Use git log to browse through the commits, and find the ID of the commit that we want.
+     Then use git diff to compare the ID of the current commit with the previous commit. That is git diff current_commit_id previous_commit_id
+     If the id is too long, can only type the first 4 letters
+
+How might using version control make you more confident to make changes that could break something?
+
+Ans: It gives me a confident that I can always go back to start from the most recent working version.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Ans: Working on writing codes
+ 
