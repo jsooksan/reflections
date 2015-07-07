@@ -6,3 +6,12 @@ How is the staging area different from the working directory and the repository?
 
 Ans: Allow us to prepare files to be committed together
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+Ans: add files that are part of logical change to the stging area with the command 'git add', then use 'git commit' to commit the changes on these file
+Remember that you don't need to add all filles to the staging area. Add only those that are part of the logical change you want to reflect in a commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Ans: 1. When we have an experimental idea that we want to try. We can branch from the master and try without messing up the master.
+
