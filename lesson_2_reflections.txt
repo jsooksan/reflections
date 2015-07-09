@@ -15,3 +15,10 @@ What are some situations when branches would be helpful in keeping your history 
 
 Ans: 1. When we have an experimental idea that we want to try. We can branch from the master and try without messing up the master.
 
+How do the diagrams help you visualize the branch structure?
+
+Ans: Help to know which commits are reachable 
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Ans: Combine the changes we have made independently on two branches.
